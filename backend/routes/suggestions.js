@@ -1,0 +1,1 @@
+ /* this file for Define the API endpoints for fetching suggestions. */

@@ -1,0 +1,1 @@
+/* this file For handling frontend logic and interacting with the backend. */

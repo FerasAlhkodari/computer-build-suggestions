@@ -1,0 +1,1 @@
+/* Handle the logic for fetching and processing suggestions. */
