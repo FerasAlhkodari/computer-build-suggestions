@@ -5,9 +5,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Computer Build Suggestions</title>
 </head>
 <body>
-    
+    <h1>Find the Best Computer Parts</h1>
+    <form id="suggestion-form">
+        <label for="budget">Budget:</label>
+        <input type="number" id="budget" name="budget" required>
+        <label for="usage">Usage:</label>
+        <select id="usage" name="usage" required>
+            <option value="gaming">Gaming</option>
+            <option value="work">Work</option>
+        </select>
+        <button type="submit">Get Suggestions</button>
+    </form>
+    <div id="suggestions">
+        <div id="RAM">
+            <h2>RAM</h2>
+            <p id="ram-specs"></p>
+        </div>
+        <div id="SSD">
+            <h2>SSD</h2>
+            <p id="ssd-specs"></p>
+        </div>
+        <div id="Motherboard">
+            <h2>Motherboard</h2>
+            <p id="motherboard-specs"></p>
+        </div>
+        <div id="PowerSupply">
+            <h2>Power Supply</h2>
+            <p id="power-supply-specs"></p>
+        </div>
+        <div id="GPU">
+            <h2>GPU</h2>
+            <p id="gpu-specs"></p>
+        </div>
+        <div id="CPU">
+            <h2>CPU</h2>
+            <p id="cpu-specs"></p>
+        </div>
+        <div id="CPUCooler">
+            <h2>CPU Cooler</h2>
+            <p id="cpu-cooler-specs"></p>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
